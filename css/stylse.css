@@ -31,17 +31,16 @@ body {
     font-style: normal;
     text-align: center;
 
-    color: #18131f;
+    color: #621c41;
 }
 .section_header {
     padding-left: 30px;
     padding-right: 20px;
-    background-color: #621c41;
+    background-color: #18131f;
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-family: 'Press Start 2P', cursive;
-    border-bottom: 3px #18131f solid;
 }
 
 .hearder_logo {
@@ -51,15 +50,15 @@ body {
 
 .header_logo_text {
     font-family: 'Press Start 2P', cursive;
-    color: #18131f;
+    color: #621c41;
     max-width: 300px;
     padding-left: 20px;
-    border-left: 3px #18131f solid;
+    border-left: 3px #621c41 solid;
     margin-left: 17px;
 }
 
 .menu-items {
-    color: #18131f;
+    color: #621c41;
     list-style-type: none;
     padding: 0;
 }
@@ -71,7 +70,7 @@ li {
 }
 
 li:hover {
-    color: #1D1A24;
+    color: #621c41;
 }
 
 .banner {
