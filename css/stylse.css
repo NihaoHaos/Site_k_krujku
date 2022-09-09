@@ -1,0 +1,143 @@
+h1 {
+    font-size: 72px;
+    color: rgb(29,26,36);
+    font-family: 'Press Start 2P', cursive;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+h3 {
+    font-family: 'Press Start 2P', cursive;
+    color: black;
+    font-size: 30px;
+}
+p {
+    position: relative;
+    z-index: 2;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+body {
+    margin: 0;
+    background-color: #18131f;
+}
+.Nathvanie {
+
+    font-style: normal;
+    text-align: center;
+
+    color: #18131f;
+}
+.section_header {
+    padding-left: 30px;
+    padding-right: 20px;
+    background-color: #562242;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Press Start 2P', cursive;
+    border-bottom: 3px #18131f solid;
+}
+
+.hearder_logo {
+    display: flex;
+    align-items: center;
+}
+
+.header_logo_text {
+    font-family: 'Press Start 2P', cursive;
+    color: #18131f;
+    max-width: 300px;
+    padding-left: 20px;
+    border-left: 3px #18131f solid;
+    margin-left: 17px;
+}
+
+.menu-items {
+    color: #18131f;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+li:hover {
+    color: #1D1A24;
+}
+
+.banner {
+    background-image: url('../img/Ожидание.png');
+    background-repeat: no-repeat;
+    position: fixed;
+    min-height: 100%;
+    min-width: 640px;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.banner2 {
+    background-image: url('../img/white-black.png');
+    height: 447px;
+    width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Vdohnovlenie {
+    color: #000;
+    align-items: center;
+    background-color: #562242;
+    display: flex;
+    padding: 30px 400px;
+    justify-content: space-around;
+
+}
+
+.Vdohnovlenie-image {
+    max-width: 40%;
+}
+
+.Vdohnovlenie-text {
+    color: black;
+    max-width: 60%;
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600px;
+    font-size: 18px;
+}
+
+.Thnat {
+    color: white;
+    max-width: 60%;
+    padding: 30px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 600px;
+    font-size: 18px;
+}
+
+.about-me {
+    background-color: white;
+    border: 2px black solid;
+    border-radius: 20px;
+    margin: 30px auto;
+    max-width: 600px;
+    height: 800px;
+    background-image: url('../images/hmm.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text {
+    color: gray;
+}
